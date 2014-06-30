@@ -7,7 +7,7 @@ package com.wecansoar.ixmsxms;
  * Time: 오후 4:54
  * To change this template use File | Settings | File Templates.
  */
-public class Intent {
+public class Intent extends android.content.Intent {
     public Intent(MainActivity mainActivity, Class aClass) {
     }
 }

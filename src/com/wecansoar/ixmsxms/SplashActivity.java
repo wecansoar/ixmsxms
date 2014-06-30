@@ -1,6 +1,7 @@
 package com.wecansoar.ixmsxms;
 
 import android.app.Activity;
+import android.content.*;
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.os.Handler;
@@ -19,33 +20,33 @@ public class SplashActivity extends Activity {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
-	    setContentView(R.layout.splash);
+	    setContentView(R.layout.activity_splash);
 
 
         ImageView image = (ImageView) findViewById(R.id.appMark);
-        Animation alphaAnim = AnimationUtils.loadAnimation(this, R.anim.alpha);
-        //Animation alphaAnim = AnimationUtils.loadAnimation(this, R.anim.tween);
+        //Animation alphaAnim = AnimationUtils.loadAnimation(this, R.anim.alpha);
+        Animation alphaAnim = AnimationUtils.loadAnimation(this, R.anim.tween);
         image.startAnimation(alphaAnim);
 
-        TextView appName = (TextView) findViewById(R.id.appName);
-        Typeface customFont = Typeface.createFromAsset(getAssets(), "fonts/hunmakdaeyunpilR.otf");
+        TextView appName = (TextView) findViewById(R.id.msg);
+        Typeface customFont = Typeface.createFromAsset(getAssets(), "fonts/hunchungchunR.ttf");
         appName.setTypeface(customFont);
 
-	    initialize();
+
+        Handler handler = new Handler();
+        handler.postDelayed(new splashHandler(), LOADING_TIME);
 
         //ProgressDialog.show(SplashActivity.this, "", "Now Loading..");
 	}
 
-	private void initialize () {
-		Handler handler = new Handler() {
-			
-	        public void handleMessage(Message msg) {
-                Log.v("handler", "DDDD");
-                finish();    // splash 액티비티 종료
-            }
-		};
 
-        handler.sendEmptyMessageDelayed(0, LOADING_TIME);
-	}
+    private class splashHandler implements Runnable {
+        @Override
+        public void run() {
+            startActivity(new android.content.Intent(getApplication(), LoginActivity.class));
+            SplashActivity.this.finish();   // 로딩페이지 Activity Stack에서 제거
+        }
+    }
+
 
 }

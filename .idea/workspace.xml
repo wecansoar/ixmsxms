@@ -25,32 +25,334 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="26bc9ab3-1840-4879-b14f-efeb177d64e8" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bg_layout_bottom.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bg_layout_middle.9.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bg_layout_top.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bg_login.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/bg_splash.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_input_next.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/input_base.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/input_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/logo_login.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/HomeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/JoinActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/piece/LayoutBottom.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/piece/LayoutMiddle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/piece/LayoutTop.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_home.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_login.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/bg_pattern.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/cursor_mint.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_bottom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_middle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/layout_top.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/wecansoar/ixmsxms/BuildConfig.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/layout/user_login.xml" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/btn_cancel.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_cancel.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/btn_more.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_more.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/btn_more2.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_more2.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/btn_ok.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_ok.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/btn_yellow.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/btn_yellow.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/checkbox.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/checkbox.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/checkbox_on.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/checkbox_on.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/icon.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/icon_etc.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_etc.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/icon_home.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_home.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/icon_list.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_list.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/icon_write.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon_write.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/intro.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/intro.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/logo.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/logo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/logo_icon.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/logo_icon.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/text_login.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/text_login.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/tit_join.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tit_join.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/tit_login.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tit_login.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/tit_myinfo.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tit_myinfo.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/tit_note.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/tit_note.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/drawable/title_bg.png" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/title_bg.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/splash.xml" afterPath="$PROJECT_DIR$/res/layout/activity_splash.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/res/layout/user_join.xml" afterPath="$PROJECT_DIR$/res/layout/activity_join.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/Intent.java" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/Intent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/LoginActivity.java" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/LoginActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/MainActivity.java" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/MainActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/SplashActivity.java" afterPath="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/SplashActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_main.xml" afterPath="$PROJECT_DIR$/res/layout/activity_main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/color.xml" afterPath="$PROJECT_DIR$/res/values/color.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ixmsxms.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373876007343" ignored="false" />
+    <file path="/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357373539" ignored="false" />
     <file path="/IntroActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1371693859077" ignored="false" />
-    <file path="/MainActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373875649213" ignored="false" />
+    <file path="/MainActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376461551882" ignored="false" />
     <file path="$PROJECT_DIR$/bin/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1371088532662" ignored="false" />
-    <file path="/fragment.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373534511276" ignored="false" />
-    <file path="/JoinActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373534870340" ignored="false" />
+    <file path="/fragment.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1403838080925" ignored="false" />
+    <file path="/JoinActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374758897484" ignored="false" />
     <file path="/Intent.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1371686067418" ignored="false" />
-    <file path="/styles.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373879287705" ignored="false" />
+    <file path="/styles.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374750316650" ignored="false" />
     <file path="/CustomTitleBar.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1372845978266" ignored="false" />
-    <file path="/Dummy.txt" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374110709017" ignored="false" />
+    <file path="/Dummy.txt" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1403839049242" ignored="false" />
     <file path="/titlebar_mint.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373530371604" ignored="false" />
     <file path="/window_title.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373532973691" ignored="false" />
     <file path="/themes.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373530825674" ignored="false" />
-    <file path="/LoginActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373603978836" ignored="false" />
+    <file path="/LoginActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374835115739" ignored="false" />
     <file path="/a.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374129258379" ignored="false" />
     <file path="/title_base.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373603936335" ignored="false" />
     <file path="/intro.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373875351278" ignored="false" />
-    <file path="/SplashActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373876145357" ignored="false" />
-    <file path="/user_login.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373882742520" ignored="false" />
+    <file path="/SplashActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375265402801" ignored="false" />
+    <file path="/user_login.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374760245349" ignored="false" />
     <file path="/btn_yellow.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373879854848" ignored="false" />
     <file path="/button_yellow.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1373880153046" ignored="false" />
+    <file path="/a.dummy" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374806691216" ignored="false" />
+    <file path="$PROJECT_DIR$/../../android/안드리버스/Vine_1.3.2/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374484532534" ignored="false" />
+    <file path="$PROJECT_DIR$/../../android/안드리버스/Vine_1.3.2/src/co/vine/android/recorder/CameraManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374485251044" ignored="false" />
+    <file path="$PROJECT_DIR$/../Vine/src/co/vine/android/StartActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374647308909" ignored="false" />
+    <file path="/StartActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374643102717" ignored="false" />
+    <file path="$PROJECT_DIR$/../Vine/src/co/vine/android/recorder/CameraManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375073004445" ignored="false" />
+    <file path="/CameraManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375072999881" ignored="false" />
+    <file path="$PROJECT_DIR$/../Vine/src/co/vine/android/recorder/RecordController.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374740943973" ignored="false" />
+    <file path="/RecordController.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374740943655" ignored="false" />
+    <file path="$PROJECT_DIR$/../Vine/res/layout/record.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374742278136" ignored="false" />
+    <file path="$PROJECT_DIR$/../Vine/src/co/vine/android/recorder/VineRecorder.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374742629520" ignored="false" />
+    <file path="$PROJECT_DIR$/../Vine/smali/co/vine/android/recorder/VineRecorder$1.smali" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374743141592" ignored="false" />
+    <file path="/HomeActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374753332403" ignored="false" />
+    <file path="/activity_home.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374758177196" ignored="false" />
+    <file path="/strings.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374758403171" ignored="false" />
+    <file path="/*.regexp" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378358018279" ignored="false" />
+    <file path="$PROJECT_DIR$/../Instagram/src/com/instagram/android/video/camera/VideoButtonListener.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374817170790" ignored="false" />
+    <file path="/VideoButtonListener.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374817072870" ignored="false" />
+    <file path="$PROJECT_DIR$/../Instagram/src/com/instagram/camera/CameraPreview.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374828375861" ignored="false" />
+    <file path="/CameraPreview.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374828362166" ignored="false" />
+    <file path="$PROJECT_DIR$/../Instagram/src/com/instagram/android/video/fragment/CamcorderFragment.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374828457469" ignored="false" />
+    <file path="/CamcorderFragment.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1374828450743" ignored="false" />
+    <file path="$PROJECT_DIR$/../Instagram/src/com/instagram/android/creation/fragment/MetadataFragment.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375088069265" ignored="false" />
+    <file path="/MetadataFragment.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375088069265" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356409270" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/pom.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375160182473" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/renderer/CameraGLRendererForHighApi.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356615762" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/renderer/CameraGLRenderer.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356615029" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/CameraSound.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356589221" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/LayoutChangeHelper.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356624152" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/CameraModule.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356587338" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/renderer/CameraGLRendererForLowApi.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356618659" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/DaumCamera.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356593262" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/CameraView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356612384" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/lint.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376446836068" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/pom.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357148504" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/project.properties" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375160254012" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/CameraManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356582608" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/res/layout/main.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values/colors.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099919" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/PreviewPanelLayout.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356632386" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values-ko/strings.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099919" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/renderer/CameraPreviewForLowApi.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356620690" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/CameraHardwareException.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356579509" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/CameraHolder.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356580803" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/PreviewGestures.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356600779" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/Thumbnail.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356602864" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/Exif.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356594337" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/CameraErrorCallback.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356577650" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/CameraDisabledException.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356575650" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/LocationManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356597899" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/FocusOverlayManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356597270" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/Storage.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356601832" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/OnClickAttr.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356598283" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/OnPreferenceChangedListener.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356600307" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ApiHelper.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356574384" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/bundle/CameraPicker.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356636121" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/LayoutChangeNotifier.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356625012" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values/dimens.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099921" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values/styles.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099921" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values/ids.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099921" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/bundle/FlashControl.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356639966" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values/arrays.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099921" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values/strings.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099921" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/CameraPreferenceManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356609433" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values/attrs.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099922" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/Util.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356604924" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/values/config.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375166099922" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/PreviewFrameLayout.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356631486" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/FocusIndicator.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356623005" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/.idea/workspace.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376442536904" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/target/generated-sources/r/net/daum/camera/core/R.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375167125537" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/.idea/misc.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375167118393" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/.idea/compiler.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375167118393" ignored="false" />
+    <file path="/activity_splash.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375265737780" ignored="false" />
+    <file path="/activity_login.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375267295647" ignored="false" />
+    <file path="/activity_join.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378365278541" ignored="false" />
+    <file path="/layout_top.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376468214197" ignored="false" />
+    <file path="/layout_middle.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378365147204" ignored="false" />
+    <file path="/layout_bottom.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375360644130" ignored="false" />
+    <file path="/LayoutTop.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375360605197" ignored="false" />
+    <file path="/LayoutBottom.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375360689018" ignored="false" />
+    <file path="/LayoutMiddle.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375360723264" ignored="false" />
+    <file path="/bg_pattern.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1375362127128" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/MainActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/util/AnimatedGifEncoder.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="/AnimatedGifEncoder.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376463480352" ignored="false" />
+    <file path="$PROJECT_DIR$/../../program/adt-bundle-mac-x86_64-20130219/sdk/platforms/android-17/android.jar!/android/graphics/YuvImage.class" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376274065649" ignored="false" />
+    <file path="/a.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376375525495" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/layout/preview_frame.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356573323" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/CameraFragment.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356607289" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/PreviewSurfaceView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356613418" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/res/layout/face_view.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356566416" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/module/SettingKey.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356614319" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357426495" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/gen/net/daum/jjal/BuildConfig.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376447404962" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378354814692" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/res/layout/preview.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377587772632" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/AnimatedGifEncoder.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357437123" ignored="false" />
+    <file path="/cursor_mint.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376634869684" ignored="false" />
+    <file path="/color.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376474316729" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/res/layout/main.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376896660344" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/res/values/strings.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376896660344" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/build.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376896660344" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/src/sample/helloNDK/HelloNKDActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376965243432" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376903079165" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/.idea/workspace.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376979289996" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/.idea/misc.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376896840306" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/jni/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376964100028" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/jni/csource.c" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376974688772" ignored="false" />
+    <file path="/HelloNKDActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376964831894" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/libs/armeabi/libcsource.so" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376901762567" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/jni/Application.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376902630334" ignored="false" />
+    <file path="/csource.c" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376965275124" ignored="false" />
+    <file path="/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377076566558" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/jni/Log.h" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376964222396" ignored="false" />
+    <file path="$PROJECT_DIR$/../HelloNDK/obj/local/armeabi/objs/csource/csource.o.d" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376974698222" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/task/JjalGifCreateTask.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/ui/PreviewActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/ui/CaptureActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/task/JjalBitmapCreateTask.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376979294651" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/res/layout/main.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376979294651" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/res/values/strings.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376979294651" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/build.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376979294651" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/src/sample/FFMpeg/FFMpegActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376979294651" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/config.sh" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077230888" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/configure" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376979696044" ignored="false" />
+    <file path="/configure" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1376979683613" ignored="false" />
+    <file path="/config.sh" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377074276162" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/config.h" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077297872" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/Application.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377076239484" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/common.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077833770" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/BasicPlayer/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377076566558" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/BasicPlayer/interface.c" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377076373032" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/BasicPlayer/BasicPlayer.h" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377076395195" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/BasicPlayer/BasicPlayer.c" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377135878091" ignored="false" />
+    <file path="/BasicPlayer.c" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377076464635" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078294801" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/common.mak" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077348709" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/config.mak" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077668413" ignored="false" />
+    <file path="/config.mak" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077512705" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libavcodec/Makefile" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078209991" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libavdevice/Makefile" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077978542" ignored="false" />
+    <file path="/Makefile" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077978164" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libavformat/Makefile" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377077999267" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libavutil/Makefile" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078022045" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libswscale/Makefile" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078052110" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libavcodec/Makefile2" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078238000" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078313513" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libavcodec/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078556625" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libavformat/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078588858" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libavutil/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078601362" ignored="false" />
+    <file path="$PROJECT_DIR$/../FFMpeg/jni/ffmpeg/libswscale/Android.mk" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377078617993" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/data/JjalShotData.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/res/layout/capture.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356519915" ignored="false" />
+    <file path="/capture.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377585586459" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/res/drawable/progressbar.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377242108493" ignored="false" />
+    <file path="/progressbar.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377160735144" ignored="false" />
+    <file path="/CaptureActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378355960907" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/res/drawable/settingbar.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377244895630" ignored="false" />
+    <file path="/settingbar.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377236734742" ignored="false" />
+    <file path="/JjalShotData.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377246488486" ignored="false" />
+    <file path="/preview.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377587767080" ignored="false" />
+    <file path="/PreviewActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377587618720" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/project.properties" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377765055509" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/res/drawable/bar.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377582588426" ignored="false" />
+    <file path="/bar.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377582398051" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/res/values/strings.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377837892448" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/AndroidManifest.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377837892448" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/build.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377837896016" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/src/com/example/test/MyActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377837896016" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/res/layout/main.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377837896016" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/.idea/misc.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377837897918" ignored="false" />
+    <file path="$PROJECT_DIR$/../Test/.idea/workspace.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1377837897918" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/util/ImageSaver.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/util/BitmapUtil.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="/a.groovy" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378355798971" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/res/layout/ex_default.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357428033" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/res/layout/ex_simple_camera.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356546972" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/res/layout/focus_indicator.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356549271" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/res/layout/review_control.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356550681" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/res/layout/review_thumbnail.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356552269" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/MainActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443235" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/data/MediaItem.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443235" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/setting/ApplicationPreferenceManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443237" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/simplecamera/SimpleCameraActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443237" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/gen/net/daum/android/camera/core/BuildConfig.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356560903" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/gen/net/daum/android/camera/core/Manifest.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356562832" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/gen/net/daum/android/camera/core/R.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356564225" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/bundle/FaceView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356638032" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/bundle/FocusIndicatorView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356644009" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/bundle/Rotatable.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356644908" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/bundle/RotateLayout.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356648076" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/bundle/RotateImageView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356648076" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/camera/core/ui/bundle/TwoStateImageView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356648076" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/target/generated-sources/r/net/daum/android/camera/core/BuildConfig.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378356874482" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/gen/net/daum/android/jjal/BuildConfig.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357011236" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/ui/TransparentLayout.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/data/JjalShot.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/jjal/JJalApplication.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357058830" ignored="false" />
+    <file path="$PROJECT_DIR$/../Jjal/src/net/daum/android.jjal/ui/CaptureActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357099606" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/gen/net/daum/android/daca_ex/BuildConfig.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357387730" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/res/layout/gallery_list.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357428813" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/res/layout/photo_view.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357429928" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/AppService.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357430715" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/ApplicationManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357432082" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/BaseActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357433915" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/DacaApplication.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357435798" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/DacaLog.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357438214" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/LogConsoleHandler.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357439006" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/view/slice/SlicePiecePoint.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443235" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/view/PhotoViewPager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443235" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/view/slice/SlicePieceTypeManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443235" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/view/slice/SlicePieceType.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443235" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/data/HeadItem.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443235" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/view/slice/SlicePiece.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/view/GroupGridListView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/view/GIFView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/library/photoview/VersionedGestureDetector.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/util/CursorUtil.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/view/ThumbnailView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/library/photoview/IPhotoView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/adapter/GalleryListAdapter.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/adapter/PhotoViewPagerAdapter.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/library/photoview/Compat.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/library/photoview/ScrollerProxy.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/library/photoview/SDK16.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/library/photoview/PhotoViewAttacher.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/library/photoview/PhotoView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/activity/PhotoViewActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/activity/PhotoEditActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443236" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/activity/GalleryActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443237" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/activity/GalleryListActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443237" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/camera/view/SlicePieceView.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443237" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/util/UriUtil.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443237" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/daca_ex/gallery/util/BitmapUtils.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357443237" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/android.daca_ex/camera/MainActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357469718" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/gen/net/daum/android/daca_ex/Manifest.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357472158" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/gen/net/daum/android/daca_ex/R.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357472158" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/gen/net/daum/android/daca_ex/daca_ex/BuildConfig.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378357542720" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca/src/net/daum/android/camera/core/module/CameraPreferenceManager.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378358304012" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/android/daca_ex/simplecamera/SimpleCameraActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378358569977" ignored="false" />
+    <file path="$PROJECT_DIR$/../daca-ex/src/net/daum/android/daca_ex/camera/MainActivity.java" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378358669280" ignored="false" />
+    <file path="/dimens.xml" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1378365236228" ignored="false" />
+    <file path="/proguard-project.txt" changelist="26bc9ab3-1840-4879-b14f-efeb177d64e8" time="1403837631687" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +367,7 @@
     <disable_hints />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -101,7 +404,6 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -111,43 +413,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MainActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wecansoar/ixmsxms/MainActivity.java">
+      <file leaf-file-name="proguard-project.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/proguard-project.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="90" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="splash.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/splash.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="48" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_login.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/layout/user_login.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="39" column="40" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="button_yellow.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/drawable/button_yellow.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="40" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
+            <state line="13" column="74" selection-start="549" selection-end="549" vertical-scroll-proportion="0.56686044">
               <folding />
             </state>
           </provider>
@@ -156,25 +425,34 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="36" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
+            <state line="32" column="71" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LoginActivity.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/wecansoar/ixmsxms/LoginActivity.java">
+      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="24" selection-start="79" selection-end="85" vertical-scroll-proportion="0.0">
+            <state line="26" column="47" selection-start="972" selection-end="978" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="title_base.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/res/layout/title_base.xml">
+      <file leaf-file-name="color.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/color.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="10" selection-start="479" selection-end="479" vertical-scroll-proportion="0.18528369">
+            <state line="4" column="36" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_middle.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/layout_middle.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="48" selection-start="194" selection-end="206" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -183,10 +461,55 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="styles.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
+      <file leaf-file-name="bg_pattern.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/drawable/bg_pattern.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="83" column="1" selection-start="3115" selection-end="3673" vertical-scroll-proportion="0.0">
+            <state line="5" column="2" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout_top.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/layout_top.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="15" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_login.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="36" column="47" selection-start="1291" selection-end="1399" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_join.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_join.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="89" column="49" selection-start="3447" selection-end="3447" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="39" selection-start="216" selection-end="238" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -210,29 +533,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/res/layout/window_title.xml" />
-        <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/JoinActivity.java" />
-        <option value="$PROJECT_DIR$/res/layout/title_base.xml" />
-        <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/LoginActivity.java" />
-        <option value="$PROJECT_DIR$/res/drawable/titlebar_mint.xml" />
-        <option value="$USER_HOME$/Library/Caches/IdeaIC12/compile-server/ixmsxms_b34f7566/targets/java-production/ixmsxms/android/generated_sources/aapt/com/wecansoar/ixmsxms/R.java" />
-        <option value="$PROJECT_DIR$/res/layout/intro.xml" />
-        <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/IntroActivity.java" />
         <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/MainActivity.java" />
-        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/SplashActivity.java" />
-        <option value="$PROJECT_DIR$/res/drawable/btn_yellow.xml" />
-        <option value="$PROJECT_DIR$/res/drawable/button_yellow.xml" />
-        <option value="$PROJECT_DIR$/res/values/styles.xml" />
-        <option value="$PROJECT_DIR$/res/layout/user_login.xml" />
-        <option value="$PROJECT_DIR$/../../program/adt-bundle-mac-x86_64-20130219/sdk/sources/android-17/android/app/Activity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_splash.xml" />
+        <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/LoginActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_login.xml" />
+        <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/piece/LayoutTop.java" />
+        <option value="$PROJECT_DIR$/res/layout/layout_bottom.xml" />
+        <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/piece/LayoutBottom.java" />
+        <option value="$PROJECT_DIR$/src/com/wecansoar/ixmsxms/piece/LayoutMiddle.java" />
+        <option value="$PROJECT_DIR$/res/drawable/bg_pattern.xml" />
+        <option value="$PROJECT_DIR$/res/layout/layout_top.xml" />
+        <option value="$PROJECT_DIR$/res/values/color.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/cursor_mint.xml" />
+        <option value="$PROJECT_DIR$/res/layout/layout_middle.xml" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_join.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
     <option name="width" value="2560" />
-    <option name="height" value="1330" />
+    <option name="height" value="730" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -290,7 +613,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectReloadState">
@@ -309,7 +632,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -357,7 +679,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ixmsxms" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="piece" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -372,10 +702,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="values" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -411,25 +737,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-mdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ixmsxms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ixmsxms" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable" />
+              <option name="myItemId" value="anim" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -446,18 +754,16 @@
               <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="fonts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="project.structure.last.edited" value="Project" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="382" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="397" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
@@ -475,6 +781,7 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="AndroidTargetDevices" value="192.168.56.103:5555" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
     <property name="GoToClass.includeLibraries" value="false" />
@@ -496,30 +803,12 @@
       <recent name="com.wecansoar.ixmsxms" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/res/drawable-xhdpi" />
       <recent name="$PROJECT_DIR$/res/drawable" />
+      <recent name="$PROJECT_DIR$/res/drawable-mdpi" />
     </key>
   </component>
   <component name="RunManager" selected="Android Application.ixmsxms">
-    <configuration default="false" name="ixmsxms" type="AndroidTestRunConfigurationType" factoryName="Android Tests" temporary="true">
-      <module name="ixmsxms" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="AVD_2.3.3" />
-      <option name="USE_COMMAND_LINE" value="true" />
-      <option name="COMMAND_LINE" value="" />
-      <option name="WIPE_USER_DATA" value="false" />
-      <option name="DISABLE_BOOT_ANIMATION" value="false" />
-      <option name="NETWORK_SPEED" value="full" />
-      <option name="NETWORK_LATENCY" value="none" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <RunnerSettings RunnerId="AndroidDebugRunner" />
-      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
-      <method />
-    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -647,8 +936,28 @@
       <option name="ACTIVITY_CLASS" value="" />
       <option name="MODE" value="default_activity" />
       <option name="DEPLOY" value="true" />
-      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
-      <option name="PREFERRED_AVD" value="AVD_2.3.3" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="ixmsxms" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="ixmsxms" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="USB_DEVICE" />
+      <option name="PREFERRED_AVD" value="" />
       <option name="USE_COMMAND_LINE" value="true" />
       <option name="COMMAND_LINE" value="" />
       <option name="WIPE_USER_DATA" value="false" />
@@ -664,11 +973,6 @@
       <item index="0" class="java.lang.String" itemvalue="Android Application.ixmsxms" />
       <item index="1" class="java.lang.String" itemvalue="Android Tests.ixmsxms" />
     </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Android Tests.ixmsxms" />
-      </list>
-    </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -721,34 +1025,34 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="2560" height="1330" extended-state="6" />
+    <frame x="0" y="22" width="2560" height="730" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32895783" sideWeight="0.62066114" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.37933883" sideWeight="0.4884646" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.41259843" sideWeight="0.48828125" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60030395" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32978722" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3289256" sideWeight="0.5242641" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975206" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32898173" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32755223" sideWeight="0.6702479" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18429752" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16825776" sideWeight="0.67021275" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6975684" sideWeight="0.5115354" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.62066114" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13085938" sideWeight="0.58740157" order="1" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41259843" sideWeight="0.5113281" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.7446281" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24979952" sideWeight="0.6702479" order="4" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.62066114" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975337" sideWeight="0.7446281" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32895783" sideWeight="0.62066114" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975206" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32975206" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.60030395" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -817,119 +1121,116 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="47" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wecansoar/ixmsxms/Intent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="30" selection-start="228" selection-end="240" vertical-scroll-proportion="0.24296676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../program/adt-bundle-mac-x86_64-20130219/sdk/sources/android-17/android/view/LayoutInflater.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="319" column="0" selection-start="12013" selection-end="12013" vertical-scroll-proportion="0.33333334" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Library/Caches/IdeaIC12/compile-server/ixmsxms_b34f7566/targets/java-production/ixmsxms/android/generated_sources/aapt/com/wecansoar/ixmsxms/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="19" selection-start="1624" selection-end="1624" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/themes.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="12" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gen/com/wecansoar/ixmsxms/R.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="19" selection-start="169" selection-end="169" vertical-scroll-proportion="0.12148338" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="36" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/wecansoar/ixmsxms/SplashActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="71" selection-start="863" selection-end="863" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="30" column="59" selection-start="1010" selection-end="1010" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/splash.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="48" selection-start="547" selection-end="547" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/bg_layout_top.png">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/drawable/button_yellow.xml">
+    <entry file="file://$PROJECT_DIR$/src/com/wecansoar/ixmsxms/piece/LayoutMiddle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="40" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="680" selection-end="680" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/user_login.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="39" column="40" selection-start="1366" selection-end="1366" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/res/drawable-xhdpi/bg_login.jpg">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wecansoar/ixmsxms/LoginActivity.java">
+    <entry file="file://$PROJECT_DIR$/project.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="24" selection-start="79" selection-end="85" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/wecansoar/ixmsxms/MainActivity.java">
+    <entry file="file://$PROJECT_DIR$/res/drawable/cursor_mint.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="90" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="3" column="28" selection-start="135" selection-end="135" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../program/adt-bundle-mac-x86_64-20130219/sdk/sources/android-17/android/app/Activity.java">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1018" column="63" selection-start="46382" selection-end="46382" vertical-scroll-proportion="0.7568988" />
+        <state line="32" column="71" selection-start="1298" selection-end="1298" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="83" column="1" selection-start="3115" selection-end="3673" vertical-scroll-proportion="0.0">
+        <state line="26" column="47" selection-start="972" selection-end="978" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/title_base.xml">
+    <entry file="file://$PROJECT_DIR$/res/values/color.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="10" selection-start="479" selection-end="479" vertical-scroll-proportion="0.18528369">
+        <state line="4" column="36" selection-start="178" selection-end="178" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/layout_middle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="48" selection-start="194" selection-end="206" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="android-designer">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/bg_pattern.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="2" selection-start="192" selection-end="192" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/layout_top.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="15" selection-start="476" selection-end="476" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_login.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="47" selection-start="1291" selection-end="1399" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_join.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="89" column="49" selection-start="3447" selection-end="3447" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="216" selection-end="238" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/proguard-project.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="74" selection-start="549" selection-end="549" vertical-scroll-proportion="0.56686044">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

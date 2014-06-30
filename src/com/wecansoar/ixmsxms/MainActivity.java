@@ -10,17 +10,20 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_main);
 
-        Log.v("START", "main start go splash");
         startActivity(new Intent(this, SplashActivity.class));
 
-        setContentView(R.layout.user_login);
+        //setContentView(R.layout.user_login);
+
     }
 
 
 
 }
+
+
+
 
 /*
 TODO: github
