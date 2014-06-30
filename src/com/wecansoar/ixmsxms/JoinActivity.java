@@ -9,6 +9,7 @@ import android.os.Bundle;
  * Date: 13. 7. 25.
  * Time: 오후 10:27
  * To change this template use File | Settings | File Templates.
+ * git hello test
  */
 public class JoinActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
